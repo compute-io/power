@@ -6,8 +6,6 @@ Power
 
 Calculates the [exponentiation](https://en.wikipedia.org/wiki/Exponentiation) of a `base` to the `exponent` power, i.e. the function returns `base^exponent`.
 
-performs
-
 ## Installation
 
 ``` bash
@@ -112,7 +110,7 @@ var out = power( data, 2, {
 // returns [ 25, 9, 64, 9, 4 ]
 ```
 
-When calculating the power for values between two object `arrays`, provide an accessor `function` which accepts `3` arguments.
+When exponentiating values between two object `arrays`, provide an accessor `function` which accepts `3` arguments.
 
 ``` javascript
 var data = [
@@ -235,11 +233,10 @@ bool = ( mat === out );
 // returns true
 ```
 
-__Note__: mutation is the `array` or `matrix` equivalent of an __times-equal__ (`*=`).
 
 ## Notes
 
-*	If an element is __not__ a numeric value, the result of the multiplication is `NaN`.
+*	If an element is __not__ a numeric value, the result of the exponentiation  is `NaN`.
 
 	``` javascript
 	var data, out;
